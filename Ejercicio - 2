@@ -1,0 +1,27 @@
+/**Crea un nuevo archivo JS que contenga una lista con los siguientes elementos:
+
+Tu nombre (string)
+
+Tu edad (number)
+
+¿Eres desarrollador? (boolean)
+
+Tu fecha de nacimiento (Date)
+
+Tu libro favorito (Objeto con propiedades: titulo, autor, fecha, url) */
+
+const usuario = new Array (5);
+console.log(usuario);
+
+usuario[0] = "Miguelangel";
+usuario[1] = 26;
+usuario[2] = true;
+usuario[3] = new Date("june 5 1998");
+usuario[4] = libro = {
+    titulo: "Eloquent Javascript",
+    autor: "Marijn Haverbeke",
+    fecha: new Date("2024"),
+    url: "https://eloquentjavascript.net/#:~:text=4th%20edition%20(2024)"
+}
+
+console.log(usuario[4].fecha);
